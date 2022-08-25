@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl font-bold">Strapi Nuxt</h1>
+    <h1 class="text-3xl font-bold p-6">Strapi Nuxt</h1>
 
     <section>
       <div class="px-6 h-full text-gray-800">
