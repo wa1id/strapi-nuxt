@@ -1,0 +1,151 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "createdAt": "2022-08-25T08:12:14.414Z",
+                "updatedAt": "2022-08-25T12:26:39.024Z",
+                "publishedAt": "2022-08-25T08:14:38.148Z",
+                "bio": "Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.",
+                "first_name": "Pieter",
+                "last_name": "Vleminckx",
+                "profession": "developer",
+                "adres": "Straat nummer\n9000 Stad\nBelgië",
+                "phone": "04 77 77 77 77",
+                "email": "pieter@kustze.be",
+                "awards": [
+                    {
+                        "id": 4,
+                        "title": "Best developer in the world",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    }
+                ],
+                "job_experience": [
+                    {
+                        "id": 2,
+                        "title": "Esign",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    },
+                    {
+                        "id": 3,
+                        "title": "Net-it",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    },
+                    {
+                        "id": 5,
+                        "title": "The craft",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    }
+                ],
+                "education": [
+                    {
+                        "id": 6,
+                        "title": "fk education",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    },
+                    {
+                        "id": 7,
+                        "title": "bachlorke dabei",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    }
+                ],
+                "profile_image": {
+                    "data": {
+                        "id": 1,
+                        "attributes": {
+                            "name": "profile.jpg",
+                            "alternativeText": "profile.jpg",
+                            "caption": "profile.jpg",
+                            "width": 976,
+                            "height": 549,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_profile.jpg",
+                                    "hash": "thumbnail_profile_d4a1728425",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 245,
+                                    "height": 138,
+                                    "size": 5.54,
+                                    "url": "/uploads/thumbnail_profile_d4a1728425.jpg"
+                                },
+                                "medium": {
+                                    "name": "medium_profile.jpg",
+                                    "hash": "medium_profile_d4a1728425",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 422,
+                                    "size": 44.38,
+                                    "url": "/uploads/medium_profile_d4a1728425.jpg"
+                                },
+                                "small": {
+                                    "name": "small_profile.jpg",
+                                    "hash": "small_profile_d4a1728425",
+                                    "ext": ".jpg",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 281,
+                                    "size": 20.4,
+                                    "url": "/uploads/small_profile_d4a1728425.jpg"
+                                }
+                            },
+                            "hash": "profile_d4a1728425",
+                            "ext": ".jpg",
+                            "mime": "image/jpeg",
+                            "size": 73.26,
+                            "url": "/uploads/profile_d4a1728425.jpg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2022-08-25T12:26:34.113Z",
+                            "updatedAt": "2022-08-25T12:26:34.113Z"
+                        }
+                    }
+                },
+                "languages": [
+                    {
+                        "id": 1,
+                        "name": "Dutch",
+                        "dropdown": "good"
+                    },
+                    {
+                        "id": 2,
+                        "name": "English",
+                        "dropdown": "medium"
+                    }
+                ],
+                "skills": [
+                    {
+                        "id": 3,
+                        "name": "Skill ",
+                        "dropdown": "good"
+                    },
+                    {
+                        "id": 4,
+                        "name": "skill 2",
+                        "dropdown": "medium"
+                    }
+                ],
+                "hobbies": [
+                    {
+                        "id": 8,
+                        "title": "Paardrijden",
+                        "description": "Paardewijf"
+                    }
+                ]
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 1
+        }
+    }
+}

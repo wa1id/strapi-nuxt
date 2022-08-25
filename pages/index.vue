@@ -1,10 +1,15 @@
 <template>
-  <h1>Strapi Nuxt</h1>
-  {{ response }}
+  <div>
+
+  </div>
 </template>
 
-<script setup>
-const { find } = useStrapi4();
-
-const response = await find("users", { populate: "*" });
+<script>
+  export default {
+    
+  }
 </script>
+
+<style lang="scss" scoped>
+
+</style>
