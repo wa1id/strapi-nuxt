@@ -1,7 +1,12 @@
 <script setup>
+definePageMeta({  middleware: 'auth'})
+
 const { find } = useStrapi4();
 
 const response = await find("cvs", { populate: "*" });
+
+const user = useStrapiUser()
+console.log(user)
 </script>
 
 <template>
@@ -69,7 +74,7 @@ const response = await find("cvs", { populate: "*" });
   </div>
 </template>
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,600&display=swap');
 
 * {
@@ -125,3 +130,4 @@ p {
     @apply flex flex-col gap-6;
 }
 </style>
+
