@@ -1,5 +1,5 @@
 <template>
-  <h1>Strapi Nuxt</h1>
+  <h1 class="text-3xl font-bold">Strapi Nuxt</h1>
   {{ response }}
 </template>
 
