@@ -2,15 +2,23 @@
 definePageMeta({  middleware: 'auth'})
 
 const { find } = useStrapi4();
+const { logout } = useStrapiAuth()
+const router = useRouter()
+const user = useStrapiUser()
 
 const response = await find("cvs", { populate: "*" });
 
-const user = useStrapiUser()
-console.log(user)
+const userLogout = () => {  
+  logout()  
+  router.push('/')
+}
 </script>
 
 <template>
   <div class="page">
+    <div class="page__logout">
+      <button @click="userLogout">Logout</button>
+    </div>
     <div v-if="response" class="page__head">
       <div class="image-wrapper object-fit">
         <img :src="`http://localhost:1337${response.data[0].attributes.profile_image.data.attributes.url}`" alt="">
@@ -81,6 +89,10 @@ console.log(user)
     font-family: 'Poppins', sans-serif;
 }
 
+button {
+  @apply bg-[#DBF227] text-[#042940] rounded-sm px-4 py-3;
+}
+
 .object-fit img {
   @apply w-full h-full object-cover;
   object-position: 50% 50%;
@@ -114,8 +126,8 @@ p {
   @apply text-white;
 }
 
-.page__content {
-  @apply max-w-5xl px-4 mx-auto;
+.page__logout, .page__content {
+  @apply max-w-5xl px-4 mx-auto w-full;
 }
 
 .page__content {
